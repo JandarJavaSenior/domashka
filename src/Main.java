@@ -65,24 +65,24 @@ import java.time.LocalDate;
 import java.time.LocalDate;
 import java.time.Period;
 
-public class Main {
-    public static void main(String[] args) {
-        Student student1 = new Student("Жандар", LocalDate.of(2001, 8, 17), 707986784, "kurgyz");
-        Student student2 = new Student("Олеся", LocalDate.of(1989, 3, 23), 700324345, "orus");
-        Student student3 = new Student("Зухраб", LocalDate.of(2003, 7, 12), 750598653, "ozbek");
-        Student student4 = new Student("Абдулла", LocalDate.of(1998, 1, 5), 734657434, "arab");
-        Student student5 = new Student("Чынгыз", LocalDate.of(1995, 8, 29), 999582343, "mitiz");
-
-        Student[] students = {student1, student2, student3, student4, student5};
-
-        for (Student student : students) {
-            System.out.println(student);
-            System.out.println("Возраст студента: " + student.getAge() + " лет");
-            System.out.println();
-        }
-    }
-}
-
+//public class Main {
+//    public static void main(String[] args) {
+//        Student student1 = new Student("Жандар", LocalDate.of(2001, 8, 17), 707986784, "kurgyz");
+//        Student student2 = new Student("Олеся", LocalDate.of(1989, 3, 23), 700324345, "orus");
+//        Student student3 = new Student("Зухраб", LocalDate.of(2003, 7, 12), 750598653, "ozbek");
+//        Student student4 = new Student("Абдулла", LocalDate.of(1998, 1, 5), 734657434, "arab");
+//        Student student5 = new Student("Чынгыз", LocalDate.of(1995, 8, 29), 999582343, "mitiz");
+//
+//        Student[] students = {student1, student2, student3, student4, student5};
+//
+//        for (Student student : students) {
+//            System.out.println(student);
+//            System.out.println("Возраст студента: " + student.getAge() + " лет");
+//            System.out.println();
+//        }
+//    }
+//}
+//
 
 
 
